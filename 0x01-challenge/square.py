@@ -8,7 +8,6 @@ class Square():
     height = 0
 
     def __init__(self, *args, **kwargs):
-        """ constructor """
         if kwargs:
             for key, value in kwargs.items():
                 if (key == 'width' or key == 'height'):
