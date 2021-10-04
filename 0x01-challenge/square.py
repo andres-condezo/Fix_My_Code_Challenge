@@ -9,7 +9,7 @@ class Square():
 
     def __init__(self, *args, **kwargs):
         """ constructor """
-        if **kwargs:
+        if kwargs:
             for key, value in kwargs.items():
                 if (key == 'width' or key == 'height'):
                     setattr(self, key, value)
